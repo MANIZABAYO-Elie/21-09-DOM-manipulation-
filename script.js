@@ -13,7 +13,10 @@ betterItems.forEach(function(item){
 })
 
 const verifyButton = document.getElementById('verify');
-document.querySelector('click',function(){
- verifyButton.classList.add('hidden');
+
+document.getElementById('verify').addEventListener('click',function(){
+ const paragraph = document.getElementById('trending');
+ paragraph.classList.add('hidden');
+
 })
 
