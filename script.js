@@ -11,3 +11,9 @@ const betterItems = [...items];
 betterItems.forEach(function(item){
     console.log(item);
 })
+
+const verifyButton = document.getElementById('verify');
+document.querySelector('click',function(){
+ verifyButton.classList.add('hidden');
+})
+
